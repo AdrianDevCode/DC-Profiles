@@ -1,0 +1,8 @@
+.student-profiles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    margin: 3rem;
+}
