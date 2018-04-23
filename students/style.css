@@ -1,0 +1,30 @@
+.student-profiles {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+.modal-dialog {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+}
+.card {
+    width: 15rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    margin: 1rem;
+}
+.card-title,a,span,h6 {
+    text-align: center;
+}
+
+#search-form {
+    margin-top: 1rem;
+}
+a {
+    padding-right: 6rem;
+}
