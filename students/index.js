@@ -33,8 +33,8 @@ $(function () {
             html += '<div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header">';
             html += '<h5 class="modal-title" id="exampleModalLabel">' + student.firstName + '</h5>';
             html += '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-            html += '</div><div class="modal-body"><p>' + student.fullBio + '</p><hr>';
-            html += '<p>Mission Statement: ' + student.missionStatement + '</p><hr><h6>Email: ' + student.email + '</h6></div>';
+            html += '</div><div class="modal-body"><p>' + student.fullBio + '</p>';
+            html += '<p>Mission Statement: ' + student.missionStatement + '</p><h6>Email: ' + student.email + '</h6></div>';
             html += '<div class="modal-footer"><a href="' + student.githubUrl + '"><i class="fab fa-github fa-2x"></i></a>';
             html += '<a href="' + student.linkedinUrl + '"><i class="fab fa-linkedin fa-2x"></i> </a>';
             html += '<a href="' + student.portfolioUrl + '"><i class="fas fa-suitcase fa-2x"></i> </a></div></div></div></div>';

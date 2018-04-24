@@ -1,4 +1,4 @@
-.student-profiles, .modal {
+.student-profiles, .modal-body {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -17,6 +17,6 @@
 a {
     margin-right: 1rem;
 }
-.modal-footer, .modal-title, .modal-body {
+.modal-footer, .modal-title {
     justify-content: center;
 }
