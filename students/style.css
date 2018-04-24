@@ -1,3 +1,10 @@
+html, body {
+    background: url("../img/bg.jpg") center center no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
 .student-profiles, .modal-body {
     display: flex;
     justify-content: center;
